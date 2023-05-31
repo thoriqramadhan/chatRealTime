@@ -15,6 +15,7 @@
         <link rel="stylesheet" href="{{ asset('css/app.css') }}">
         <script src="{{ asset('js/app.js') }}" defer></script>
     </head>
+    @livewireStyles
     <body class="font-sans antialiased">
         <div class="min-h-screen bg-gray-100">
             @include('layouts.navigation')
@@ -31,5 +32,6 @@
                 {{ $slot }}
             </main>
         </div>
+    @livewireScripts
     </body>
 </html>
