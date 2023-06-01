@@ -6,7 +6,7 @@
     </x-slot>
 </div>
 
-<div class="chat_container"></div>
+<div class="chat_container">
     <div class="chat_list_container">
         @livewire('chat.chatlist')
     </div>
@@ -14,4 +14,5 @@
         @livewire('chat.chatbox')
         @livewire('chat.send-message')
     </div>
+</div>
 </div>
