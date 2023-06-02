@@ -21,7 +21,7 @@ Route::get('/', function () {
 
 Route::get('/users', CreateChat::class)->name('users');
 
-Route::get('/chat{key?}', Main::class);
+Route::get('/chat{key?}', Main::class)->name('chat');
 
 Route::get('/dashboard', function () {
     return view('dashboard');
