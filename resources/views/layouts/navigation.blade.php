@@ -17,7 +17,11 @@
                     </x-nav-link>
 
                     <x-nav-link :href="route('chat')" :active="request()->routeIs('chat')">
-                        {{ __('chat') }}
+                        {{ __('Chat') }}
+                    </x-nav-link>
+
+                    <x-nav-link :href="route('users')" :active="request()->routeIs('users')">
+                        {{ __('Users') }}
                     </x-nav-link>
                 </div>
 
